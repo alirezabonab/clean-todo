@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": [
+      "es6"
+    ],
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "core/*": [
+        "./src/core/*"
+      ],
+      "data/*": [
+        "./src/data/*"
+      ],
+      "entrypoint/*": [
+        "./src/entrypoint/*"
+      ],
+      "config/*": [
+        "./src/config/*"
+      ]
+      ,
+      "__fixtures__/*": [
+        "./src/__fixtures__/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
