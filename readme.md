@@ -2,7 +2,7 @@
 
 ## This is a sample implementation of Clean Architecture pattern.
 
-[link to artcle on medium](https://bit.ly/2YjfpB9)
+[link to article on medium](https://bit.ly/2YjfpB9)
 
 check out the article to learn more about concept and also implementation.
 
